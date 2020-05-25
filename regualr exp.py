@@ -1,7 +1,7 @@
 import re
 
 code = (input())
-code = re.sub('[a-zA-z,@!+#/|$%^&*_{}?>''<.;:()""`~]', "", code)
+code = re.sub('[a-zA-z,@!+#/|$%^&*_{}?>''₹<.;:()""`~]', "", code)
 a = list(code)
 
 if a[0] == '-':
