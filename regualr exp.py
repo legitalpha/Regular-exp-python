@@ -14,4 +14,5 @@ if a[0] == '-':
     h = c+str2
     print(h)
 else:
+    code = re.sub('[-]', "", code)
     print(code)
